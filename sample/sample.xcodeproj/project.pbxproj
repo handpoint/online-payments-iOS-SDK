@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B14B9F8A2988FDC100CBD9AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B9F892988FDC100CBD9AF /* AppDelegate.swift */; };
+		B14B9F8C2988FDC100CBD9AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B9F8B2988FDC100CBD9AF /* SceneDelegate.swift */; };
+		B14B9F8E2988FDC100CBD9AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B9F8D2988FDC100CBD9AF /* ViewController.swift */; };
+		B14B9F912988FDC100CBD9AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14B9F8F2988FDC100CBD9AF /* Main.storyboard */; };
+		B14B9F932988FDC500CBD9AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B14B9F922988FDC500CBD9AF /* Assets.xcassets */; };
+		B14B9F962988FDC500CBD9AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14B9F942988FDC500CBD9AF /* LaunchScreen.storyboard */; };
+		B14B9F9E2988FF0500CBD9AF /* DirectPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B9F9D2988FF0500CBD9AF /* DirectPaymentViewController.swift */; };
+		B14B9FA02988FF1D00CBD9AF /* HostedPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B9F9F2988FF1D00CBD9AF /* HostedPaymentViewController.swift */; };
+		B1C60024299E833C005F3D3E /* Gateway in Frameworks */ = {isa = PBXBuildFile; productRef = B1C60023299E833C005F3D3E /* Gateway */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B14B9F862988FDC100CBD9AF /* sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14B9F892988FDC100CBD9AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B14B9F8B2988FDC100CBD9AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B14B9F8D2988FDC100CBD9AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B14B9F902988FDC100CBD9AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B14B9F922988FDC500CBD9AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B14B9F952988FDC500CBD9AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B14B9F972988FDC500CBD9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B14B9F9D2988FF0500CBD9AF /* DirectPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectPaymentViewController.swift; sourceTree = "<group>"; };
+		B14B9F9F2988FF1D00CBD9AF /* HostedPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostedPaymentViewController.swift; sourceTree = "<group>"; };
+		B1C60021299E81A2005F3D3E /* Gateway */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Gateway; path = ../Gateway; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B14B9F832988FDC100CBD9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C60024299E833C005F3D3E /* Gateway in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B14B9F7D2988FDC000CBD9AF = {
+			isa = PBXGroup;
+			children = (
+				B1C60020299E81A2005F3D3E /* Packages */,
+				B14B9F882988FDC100CBD9AF /* src */,
+				B14B9F872988FDC100CBD9AF /* Products */,
+				B1C4BF812995328900A02495 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B14B9F872988FDC100CBD9AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B14B9F862988FDC100CBD9AF /* sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B14B9F882988FDC100CBD9AF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B14B9F892988FDC100CBD9AF /* AppDelegate.swift */,
+				B14B9F8B2988FDC100CBD9AF /* SceneDelegate.swift */,
+				B14B9F8D2988FDC100CBD9AF /* ViewController.swift */,
+				B14B9F8F2988FDC100CBD9AF /* Main.storyboard */,
+				B14B9F922988FDC500CBD9AF /* Assets.xcassets */,
+				B14B9F942988FDC500CBD9AF /* LaunchScreen.storyboard */,
+				B14B9F972988FDC500CBD9AF /* Info.plist */,
+				B14B9F9D2988FF0500CBD9AF /* DirectPaymentViewController.swift */,
+				B14B9F9F2988FF1D00CBD9AF /* HostedPaymentViewController.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		B1C4BF812995328900A02495 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1C60020299E81A2005F3D3E /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				B1C60021299E81A2005F3D3E /* Gateway */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B14B9F852988FDC100CBD9AF /* sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B14B9F9A2988FDC500CBD9AF /* Build configuration list for PBXNativeTarget "sample" */;
+			buildPhases = (
+				B14B9F822988FDC100CBD9AF /* Sources */,
+				B14B9F832988FDC100CBD9AF /* Frameworks */,
+				B14B9F842988FDC100CBD9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sample;
+			packageProductDependencies = (
+				B1C60023299E833C005F3D3E /* Gateway */,
+			);
+			productName = PaymentDemo;
+			productReference = B14B9F862988FDC100CBD9AF /* sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B14B9F7E2988FDC000CBD9AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B14B9F852988FDC100CBD9AF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B14B9F812988FDC000CBD9AF /* Build configuration list for PBXProject "sample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B14B9F7D2988FDC000CBD9AF;
+			packageReferences = (
+			);
+			productRefGroup = B14B9F872988FDC100CBD9AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B14B9F852988FDC100CBD9AF /* sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B14B9F842988FDC100CBD9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14B9F962988FDC500CBD9AF /* LaunchScreen.storyboard in Resources */,
+				B14B9F932988FDC500CBD9AF /* Assets.xcassets in Resources */,
+				B14B9F912988FDC100CBD9AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B14B9F822988FDC100CBD9AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14B9F9E2988FF0500CBD9AF /* DirectPaymentViewController.swift in Sources */,
+				B14B9F8E2988FDC100CBD9AF /* ViewController.swift in Sources */,
+				B14B9F8A2988FDC100CBD9AF /* AppDelegate.swift in Sources */,
+				B14B9FA02988FF1D00CBD9AF /* HostedPaymentViewController.swift in Sources */,
+				B14B9F8C2988FDC100CBD9AF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B14B9F8F2988FDC100CBD9AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B14B9F902988FDC100CBD9AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B14B9F942988FDC500CBD9AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B14B9F952988FDC500CBD9AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B14B9F982988FDC500CBD9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B14B9F992988FDC500CBD9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B14B9F9B2988FDC500CBD9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = src/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Payment Demo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paymentnetwork.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B14B9F9C2988FDC500CBD9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = src/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Payment Demo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paymentnetwork.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B14B9F812988FDC000CBD9AF /* Build configuration list for PBXProject "sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B14B9F982988FDC500CBD9AF /* Debug */,
+				B14B9F992988FDC500CBD9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B14B9F9A2988FDC500CBD9AF /* Build configuration list for PBXNativeTarget "sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B14B9F9B2988FDC500CBD9AF /* Debug */,
+				B14B9F9C2988FDC500CBD9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B1C60023299E833C005F3D3E /* Gateway */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Gateway;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B14B9F7E2988FDC000CBD9AF /* Project object */;
+}
